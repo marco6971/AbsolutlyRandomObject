@@ -1,0 +1,37 @@
+package com.marco6971.AbsolutelyRandomObject;
+
+import com.marco6971.AbsolutelyRandomObject.Reference.Reference;
+import com.marco6971.AbsolutelyRandomObject.handler.ConfigurationHandler;
+import com.marco6971.AbsolutelyRandomObject.proxy.IProxy;
+
+import cpw.mods.fml.common.Mod; 
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+public class AbsolutelyRandomObject
+{
+	@Mod.Instance(Reference.MOD_ID)
+	public static AbsolutelyRandomObject instance;
+	
+	@SidedProxy (clientSide="com.marco6971.AbsolutelyRandomObject.proxy.ClientProxy", serverSide="com.marco6971.AbsolutelyRandomObject.proxy.ServerProxy")
+	public static IProxy proxy;
+	
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event){
+	ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+	}
+	
+	@Mod.EventHandler
+	public void Init(FMLInitializationEvent event){
+	
+	}
+    
+	@Mod.EventHandler
+	public void postInit(FMLPostInitializationEvent event){
+	
+	}
+}

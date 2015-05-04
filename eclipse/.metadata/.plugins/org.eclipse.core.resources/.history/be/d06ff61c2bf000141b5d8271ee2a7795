@@ -1,0 +1,14 @@
+package com.marco6971.AbsolutelyRandomObject.init;
+
+import net.minecraft.block.Block;
+import com.marco6971.AbsolutelyRandomObject.block.*;
+import com.marco6971.AbsolutelyRandomObject.reference.*;
+
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
+
+public class ModBlocks {
+public static final BlockAbsolutelyRandomObject Flag = new flag()
+ public static void init() {
+	GameRegistry.registerBlock(flag, Names.Block.FLAG);
+}
+}

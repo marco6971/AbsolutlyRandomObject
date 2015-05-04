@@ -1,0 +1,21 @@
+[
+{
+  "modid": "AbsolutelyRandomObject",
+  "name": "Absolutely Random Object",
+  "description": "My first mod",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Marco6971"
+  ],
+  "credits": "me and me",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

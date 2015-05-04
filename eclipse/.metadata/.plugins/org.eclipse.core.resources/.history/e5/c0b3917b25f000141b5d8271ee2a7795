@@ -1,0 +1,11 @@
+package com.marco6971.AbsolutelyRandomObject.block;
+
+import com.marco6971.AbsolutelyRandomObject.reference.Reference;
+import com.marco6971.AbsolutelyRandomObject.Utility.Names;
+
+public class flag extends BlockAbsolutelyRandomObject{
+	public BlockFlag(){
+		setBlockName(Names.Blocks.FLAG);
+		setBlockTextureName(Reference.MOD_ID_LOWER + ":" + Names.Blocks.FLAG);
+	}
+}

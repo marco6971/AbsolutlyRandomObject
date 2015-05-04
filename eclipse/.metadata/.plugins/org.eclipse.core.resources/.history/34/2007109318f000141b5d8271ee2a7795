@@ -1,0 +1,9 @@
+package com.marco6971.AbsolutelyRandomObject;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid="AbsolutelyRandomObject", name="AbsolutelyRandomObject", version"1.7.10-10.13.3.1395-1710ls)
+
+public class AbsolutelyRandomObject {
+
+}

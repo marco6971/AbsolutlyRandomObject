@@ -1,0 +1,19 @@
+package com.marco6971.AbsolutelyRandomObject.block;
+
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.world.World;
+
+import com.marco6971.AbsolutelyRandomObject.reference.Reference;
+import com.marco6971.AbsolutelyRandomObject.Utility.Names;
+
+public class flag extends BlockAbsolutelyRandomObject{
+	public flag(){
+		setBlockName(Names.Blocks.FLAG);
+		setBlockTextureName("a:" + Names.Blocks.FLAG);
+	}
+	
+	   public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer entityPlayer, int side, float hitx, float hity, float hitz)
+	    {
+	        return false;
+	    }
+}

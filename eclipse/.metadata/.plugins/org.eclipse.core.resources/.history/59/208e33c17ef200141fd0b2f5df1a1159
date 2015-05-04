@@ -1,0 +1,10 @@
+package com.marco6971.AbsolutelyRandomObject.item;
+
+import net.minecraft.item.Item;
+
+public class itemARO extends Item {
+	public itemARO (){
+		super();
+		
+	}
+}

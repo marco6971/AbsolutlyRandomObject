@@ -1,0 +1,5 @@
+package com.marco6971.AbsolutelyRandomObject.item;
+
+public class itemMapleLeaf extends itemARO{
+	public Item
+}

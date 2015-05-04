@@ -1,0 +1,10 @@
+package com.marco6971.AbsolutelyRandomObject.Utility;
+
+public class Names {
+	 public static class Blocks{
+	        public static final String CAMO_MINE = "camoMine";
+	        public static final String FLAG = "Flag";
+	        public static final String MODULAR_STORAGE = "modularStorage";
+	    }
+
+}

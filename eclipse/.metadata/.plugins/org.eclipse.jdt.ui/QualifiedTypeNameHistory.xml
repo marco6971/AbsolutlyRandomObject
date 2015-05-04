@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.Mod"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.Utility.Names"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.Utility.Names.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInitializationEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPostInitializationEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.proxy.IProxy"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.registry.ClientRegistry"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.configuration.ConfigurationHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.IModGuiFactory"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.config.GuiConfig"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.handler.ConfigurationHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.ConfigElement"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.Reference.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.client.gui.GuiScreen"/>
+<fullyQualifiedTypeName name="com.marco6971.AbsolutelyRandomObject.utility.LogHelper"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLCommonHandler"/>
+</qualifiedTypeNameHistroy>
