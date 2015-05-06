@@ -1,0 +1,11 @@
+package com.marco6971.AbsolutelyRandomObject.block;
+
+import net.minecraft.block.material.Material;
+
+public class BlockFlag1 extends BlockARO{
+	public BlockFlag1(){
+		super(Material.sand);
+		this.setBlockName("flag1");
+	}
+}
+

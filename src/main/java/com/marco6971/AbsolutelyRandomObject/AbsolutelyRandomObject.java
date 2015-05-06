@@ -1,7 +1,8 @@
-package com.marco6971.AbsolutelyRandomObject;
+ package com.marco6971.AbsolutelyRandomObject;
 
 import com.marco6971.AbsolutelyRandomObject.Reference.Reference;
 import com.marco6971.AbsolutelyRandomObject.handler.ConfigurationHandler;
+import com.marco6971.AbsolutelyRandomObject.init.ModBlocks;
 import com.marco6971.AbsolutelyRandomObject.init.ModItems;
 import com.marco6971.AbsolutelyRandomObject.proxy.IProxy;
 import com.marco6971.AbsolutelyRandomObject.utility.LogHelper;
@@ -28,6 +29,7 @@ public class AbsolutelyRandomObject
 	ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 	ModItems.init();
+	ModBlocks.init();
 	LogHelper.info("PreInitialization complete!");
 	}
 	

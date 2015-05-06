@@ -1,0 +1,8 @@
+package com.marco6971.AbsolutelyRandomObject.block;
+
+public class BlockFlag extends BlockARO{
+	public BlockFlag(){
+		super();
+		this.setBlockName("flag");
+	}
+}

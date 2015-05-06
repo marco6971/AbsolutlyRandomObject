@@ -1,0 +1,22 @@
+package com.marco6971.AbsolutelyRandomObject.creativetab;
+
+import com.marco6971.AbsolutelyRandomObject.Reference.Reference;
+import com.marco6971.AbsolutelyRandomObject.init.ModItems;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+
+public class CreativeTabARO {
+	public static final CreativeTabs ARO_TAB = new CreativeTabs(Reference.MOD_ID){
+		@Override
+		public Item getTabIconItem() {
+			return ModItems.mapleleaf;
+		}
+		
+		@Override
+		public String getTranslatedTabLabel(){
+			return "Absolutely";
+		}
+	};
+}
