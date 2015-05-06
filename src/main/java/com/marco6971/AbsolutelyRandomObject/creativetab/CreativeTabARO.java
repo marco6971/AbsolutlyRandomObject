@@ -17,7 +17,6 @@ public class CreativeTabARO {
 		@Override
 		public Item getTabIconItem() {
 			return ModItems.erpene;
-		}   
-
-	
+		}
+	};
 }

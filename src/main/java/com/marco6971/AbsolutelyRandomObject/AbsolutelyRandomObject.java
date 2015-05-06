@@ -4,6 +4,7 @@ import com.marco6971.AbsolutelyRandomObject.Reference.Reference;
 import com.marco6971.AbsolutelyRandomObject.handler.ConfigurationHandler;
 import com.marco6971.AbsolutelyRandomObject.init.ModBlocks;
 import com.marco6971.AbsolutelyRandomObject.init.ModItems;
+import com.marco6971.AbsolutelyRandomObject.init.Recipes;
 import com.marco6971.AbsolutelyRandomObject.proxy.IProxy;
 import com.marco6971.AbsolutelyRandomObject.utility.LogHelper;
 
@@ -30,11 +31,13 @@ public class AbsolutelyRandomObject
 	FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 	ModItems.init();
 	ModBlocks.init();
+	
 	LogHelper.info("PreInitialization complete!");
 	}
 	
 	@Mod.EventHandler
 	public void Init(FMLInitializationEvent event){
+		Recipes.init();
 		LogHelper.info("Initialization complete!");
 	}
     

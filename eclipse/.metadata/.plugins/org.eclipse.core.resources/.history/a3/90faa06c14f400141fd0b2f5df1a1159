@@ -1,0 +1,14 @@
+package com.marco6971.AbsolutelyRandomObject.init;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class Recipes {
+	public static void init(){
+		GameRegistry.addRecipe(new ItemStack(ModItems.mapleleaf), " s ", "sss", " s ",'s', new ItemStack(Items.stick));
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.flag), "www", "wmw", "www",'w',  new ItemStack(Blocks.wool, 1, 1), 's',new ItemStack(ModItems.mapleleaf));
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.flag1), new ItemStack(ModItems.mapleleaf), new ItemStack(ModItems.mapleleaf));
+	}
+}
