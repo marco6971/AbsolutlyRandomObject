@@ -1,0 +1,9 @@
+package com.marco6971.AbsolutelyRandomObject.Reference;
+
+public final class Names {
+	public static final class Keys{
+		public static final String CATEGORY = "Keys,absolutelyrandomobject.category";
+		public static final String CHARGE = "Keys,absolutelyrandomobject.charge";
+		public static final String RELEASE = "Keys,absolutelyrandomobject.release";
+	}
+}

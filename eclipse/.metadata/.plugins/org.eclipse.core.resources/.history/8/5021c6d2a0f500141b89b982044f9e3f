@@ -1,0 +1,15 @@
+#item
+item.absolutelyrandomobject:mapleLeaf.name=La foglia demmerda
+item.absolutelyrandomobject:erPene.name=Er Pene
+
+#block
+tile.absolutelyrandomobject:flag.name=MangiaLumache's flag
+tile.absolutelyrandomobject:flag1.name=Sciroppo's flag
+
+#creative tabs
+itemGroup.absolutelyrandomobject=Absolutely
+
+#keys
+Keys,absolutelyrandomobject.category= Absolutely Random Object
+Keys,absolutelyrandomobject.charge=Charge
+Keys,absolutelyrandomobject.release=Release

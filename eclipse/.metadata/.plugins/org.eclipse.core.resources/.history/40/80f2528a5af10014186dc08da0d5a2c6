@@ -1,8 +1,0 @@
-package com.marco6971.AbsolutelyRandomObject.Utility;
-
-public class Names {
-	 public static class Blocks{
-	        public static final String FLAG = "Flag";
-	    }
-
-}

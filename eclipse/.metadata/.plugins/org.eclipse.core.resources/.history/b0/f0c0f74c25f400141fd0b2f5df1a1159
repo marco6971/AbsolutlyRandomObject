@@ -1,0 +1,23 @@
+package com.marco6971.AbsolutelyRandomObject.block;
+
+import net.minecraft.block.BlockStone;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.world.World;
+
+import com.marco6971.AbsolutelyRandomObject.creativetab.CreativeTabARO;
+import com.marco6971.AbsolutelyRandomObject.init.ModBlocks;
+
+public class BlockFlag extends BlockARO{
+	public BlockFlag(){
+		super();
+		this.setBlockName("flag");
+		this.setCreativeTab(CreativeTabARO.ARO_TAB);
+	}
+	 @Override
+	    public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ){
+	       world.setBlock(x, y+1, z, ModBlocks.flag);
+	        return true;
+	    }
+ }
+ 

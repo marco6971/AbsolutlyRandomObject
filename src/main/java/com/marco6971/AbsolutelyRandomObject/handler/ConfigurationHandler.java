@@ -7,6 +7,7 @@ import net.minecraftforge.common.config.Configuration;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
+
 public class ConfigurationHandler
 {
     public static Configuration configuration;

@@ -1,0 +1,15 @@
+#item
+item.absolutelyrandomobject:mapleLeaf.name=Canadian's leaf
+item.absolutelyrandomobject:erPene.name=Er Pene
+
+#block
+tile.absolutelyrandomobject:flag.name=Dutch's flag
+tile.absolutelyrandomobject:flag1.name=Canadian's flag
+
+#creative tabs
+itemGroup.absolutelyrandomobject=Absolutely
+
+#keys
+Keys,absolutelyrandomobject.category= Absolutely Random Object
+Keys,absolutelyrandomobject.charge=Explosion
+Keys,absolutelyrandomobject.release=Release

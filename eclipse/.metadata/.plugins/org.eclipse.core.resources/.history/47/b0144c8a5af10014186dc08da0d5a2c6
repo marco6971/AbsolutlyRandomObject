@@ -1,6 +1,0 @@
-package com.marco6971.AbsolutelyRandomObject.reference;
-
-public enum Key
-{
-    UNKNOWN, CHARGE, RELEASE;
-}

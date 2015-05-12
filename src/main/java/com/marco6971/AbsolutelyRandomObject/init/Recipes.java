@@ -10,9 +10,13 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class Recipes {
 	public static void init(){
 		//GameRegistry.addRecipe(new ItemStack(ModItems.mapleleaf), " s ", "sss", " s ",'s', new ItemStack(Items.stick));
-	//	GameRegistry.addRecipe(new ItemStack(ModBlocks.flag1), "www", "wmw", "www",'w', new ItemStack(Blocks.wool, 1, 0), 'm',new ItemStack(ModItems.mapleleaf));
+			//aggiunge una recipe
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.flag1), "www", "wmw", "www",'w', new ItemStack(Blocks.wool, 1, 0), 'm',new ItemStack(ModItems.mapleleaf));
 		//GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.flag), new ItemStack(ModItems.erpene), new ItemStack(ModItems.erpene));
+			//aggiunge una recipe dove gli oggetti vanno messi a caso
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.mapleleaf), " s ", "sss", " s ",'s', "stickWood"));
+			//aggiunge una recipe usando l'oreDictionary
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.flag), new ItemStack(ModItems.erpene), new ItemStack(ModItems.erpene)));
-	}
+			//aggiunge una recipe dove gli oggetti vanno messi a caso, gli oggetti sono controllati usando l'oreDictionary
+		}
 }
